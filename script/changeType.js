@@ -1,3 +1,5 @@
+// Not in use
+
 var type = [ 'Genre', 'Colour', 'Vibrancy', 'Temperature' ];
 var typeId = 0;
 
