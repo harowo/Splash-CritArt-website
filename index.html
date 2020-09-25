@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CritArt</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="script/scrollNav.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animation.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <nav id="navigation" class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+
+        <label class="logo">CritArt</label>
+
+        <ul>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#">Browse</a></li>
+          <li><a class="nav-link" href="#">Signup</a></li>
+          <li><a class="nav-link" href="#">Login</a></li>
+        </ul>
+    </nav>
+    
+    <div id="slider">
+            <figure>
+                    <img src="img/1.jpg" alt="">
+                    <img src="img/2.jpg" alt="">
+                    <img src="img/3.jpg" alt="">
+                    <img src="img/4.jpg" alt="">
+                    <img src="img/1.jpg" alt="">
+            </figure>
+    </div>
+
+    <div id="searchbar">
+      <form>
+          <p>Find the art you want</p>
+          <div class="form-box">
+              <input class="search-box" name="search" type="text" placeholder="Search by artist, category or tag">
+                  <button class="search-btn" type="button">Search</button>
+          </div>
+      </form>
+    </div>
+
+    <section id="about">
+      <p>CritArt makes use of an AI trained from thousands of artwork to automatically tag artwork to allow for easy searching.</p>
+      <a href="#">Start experiencing</a>
+    </section>
+    
+    <section id="featured">
+      <h1>Popular Searches</h1>
+      <ul class="images">
+        <li><img src="img/1.jpg" alt="">Tags:<span>Cold Temperature</span></li>
+        <li><img src="img/vibrant.jpg" alt="">Tags:<span>Vibrant</span></li>
+        <li><img src="img/contemporary.jpg" alt="">Tags:<span>Contemporary</span><span>Portrait</span></li>
+        <li><img src="img/impressionist.jpg" alt="">Tags:<span>impressionist</span><span>Landscape</span></li>
+      </ul>
+      </section>
+      
+
+    <footer>
+      <div class="main-content">
+        <div class="box left">
+          <div class="content">
+            <h1>CritArt</h1>
+          </div>
+        </div>
+
+        <div class="box mid">
+          <div class="content">
+            <h2>Follow us</h2>
+            <div class="social">
+                <a href=""><span class="fab fa-facebook-f"></span>CritArt Official</a>
+                <a href=""><span class="fab fa-twitter"></span>CritArt Official</a>
+                <a href=""><span class="fab fa-instagram"></span>CritArt Official</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box right">
+          <h2>Contact Us</h2>
+          <div class="content">
+            <textarea class="feedback-box" type="text" style="height: 100px" placeholder="Enter your feedback"></textarea>
+            <button class="submit-btn" type="button">Submit</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>
