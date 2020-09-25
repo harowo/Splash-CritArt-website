@@ -150,7 +150,8 @@ section#about{
     flex-direction: column;
 }
 #about > p {
-  padding-bottom: 80px;
+  padding-bottom: 60px;
+  line-height: 90px;
 }
 #about > a {
     display: flex;
@@ -159,7 +160,7 @@ section#about{
     color: #fff;
     display: flex;
     font-size: 30px;
-    padding: 30px;
+    padding: 26px;
     border-radius: 40px;
     background-color: #ff4059;
 }
