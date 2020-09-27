@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CritArt</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-    <script type="text/javascript" src="script/scrollNav.js"></script>
-    <script type="text/javascript" src="script/search.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../script/scrollNav.js"></script>
+    <script type="text/javascript" src="../script/imageDisplay.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/animation.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
+    <link href="../css/search.css" rel="stylesheet">
+    <link href="../css/animation.css" rel="stylesheet">
+    <link href="../css/footer.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
 
@@ -25,49 +25,32 @@
         <label class="logo">CritArt</label>
 
         <ul>
-          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#">Home</a></li>
           <li><a class="nav-link" href="#services">Services</a></li>
           <li><a class="nav-link" href="#">Browse</a></li>
           <li><a class="nav-link" href="#">Signup</a></li>
           <li><a class="nav-link" href="#">Login</a></li>
         </ul>
     </nav>
-    
-    <div id="slider">
-            <figure>
-                    <img src="img/1.jpg" alt="">
-                    <img src="img/2.jpg" alt="">
-                    <img src="img/3.jpg" alt="">
-                    <img src="img/4.jpg" alt="">
-                    <img src="img/1.jpg" alt="">
-            </figure>
-    </div>
 
-    <div id="searchbar">
-      <form>
-          <p>Find the art you want</p>
-          <div class="form-box" onSubmit="return redirect();">
-              <input class="search-box" id="search-input" type="text" placeholder="Search by artist, category or tag" />
-              <input class="search-btn" type="submit" value="Search" />
-          </div>
-      </form>
-    </div>
-
-    <section id="about">
-      <p>CritArt makes use of an AI trained from thousands of artwork to automatically tag artwork to allow for easy searching.</p>
-      <a href="#">Start experiencing</a>
+    <section class="heading">
+        <h1>Search results for: <span>warm</span></h1>
     </section>
-    
-    <section id="featured">
-      <h1>Popular Searches</h1>
-      <ul class="images">
-        <li><img src="img/1.jpg" alt="">Tags:<span>Cold Temperature</span></li>
-        <li><img src="img/vibrant.jpg" alt="">Tags:<span>Vibrant</span></li>
-        <li><img src="img/contemporary.jpg" alt="">Tags:<span>Contemporary</span><span>Portrait</span></li>
-        <li><img src="img/impressionist.jpg" alt="">Tags:<span>impressionist</span><span>Landscape</span></li>
-      </ul>
-      </section>
-      
+        <section class="result">
+            <section class="image-grid">
+                <a href="#">
+                    <img class="basic_img" src="../img/warm1.jpg">
+                    <p>"<span>Haystacks at sunset, frosty weather</span>, Claude Monet, 1891</p>
+                </a>
+            </section>
+            <section class="image-grid">
+                <a href="#">
+                    <img class="basic_img" src="../img/warm2.jpg">
+                    <p><span>Red on Maroon</span>, Mark Rothko, 1959s</p>
+                </a>
+            </section>
+    </section>
+
 
     <footer>
       <div class="main-content">

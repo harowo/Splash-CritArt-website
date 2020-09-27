@@ -64,21 +64,3 @@
       left: 0;
     }
 }
-
-@keyframes animate {
-    0% {
-        content: 'Genre'
-    }
-    25% {
-        content: 'Colour'
-    }
-    50% {
-        content: 'Vibrancy'
-    }
-    75% {
-        content: 'Temperature'
-    }
-    100% {
-        content: 'Genre'
-    }
-}

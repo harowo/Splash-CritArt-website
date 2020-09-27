@@ -1,0 +1,117 @@
+html{
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #fff;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
+  nav {
+    width: 100%;
+    padding: 2px 0px;
+    background: #ff4059;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    z-index: 100;
+    top: 0;
+    position: fixed;
+    display: block;
+  }
+  label.logo {
+    display: inline-flex;
+    color: #fff;
+    font-size: 52px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  #navigation ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 16px;
+  }
+  #navigation ul li{
+    display: inline-flex;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  #navigation ul li a{
+    color: #fff;
+    background-color: transparent;
+    font-size: 17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+    float: left;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+p {
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.heading {
+    display: flex;
+    padding: 120px 0 10px 100px;
+}
+.heading > h1 {
+    font-size: 52px;
+}
+.heading > h1 > span {
+    color: rgba(0,0,0,0.7);
+}
+
+.result {
+    padding: 80px;
+}
+.result > .image-grid {
+    display: inline-flex;
+    margin: 30px;
+}
+.result > .image-grid > a > .basic_img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 30px;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .result > .image-grid > a > .basic_img:hover {
+    box-shadow: 0 0 2px 1px rgba(255,0,0,0.7);
+  }
+  .result > .image-grid > a > p {
+      color: #000;
+      font-size: 20px;
+      padding: 10px;
+  }
+  .result > .image-grid > a > p > span {
+      color: #ff4059;
+      font-size: 24px;
+  }
